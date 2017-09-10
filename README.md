@@ -5,12 +5,12 @@
 
 # Algorithms
 
-![](https://img.shields.io/badge/bubblesort-?-blue.svg)
-![](https://img.shields.io/badge/insertionsort-?-blue.svg)
-![](https://img.shields.io/badge/selectionsort-?-blue.svg)
-![](https://img.shields.io/badge/mergesort-?-blue.svg)
-![](https://img.shields.io/badge/heapsort-?-blue.svg)
-![](https://img.shields.io/badge/quicksort-?-blue.svg)
+![](https://img.shields.io/badge/bubblesort-✓-blue.svg)
+![](https://img.shields.io/badge/insertionsort-✓-blue.svg)
+![](https://img.shields.io/badge/selectionsort-✓-blue.svg)
+![](https://img.shields.io/badge/mergesort-✓-blue.svg)
+![](https://img.shields.io/badge/heapsort-✓-blue.svg)
+![](https://img.shields.io/badge/quicksort-✓-blue.svg)
 
 ## BubbleSort
 
