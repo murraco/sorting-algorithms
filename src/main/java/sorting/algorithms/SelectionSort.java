@@ -1,4 +1,4 @@
-package sa.sorting;
+package sorting.algorithms;
 
 public class SelectionSort {
 

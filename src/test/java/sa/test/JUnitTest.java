@@ -6,12 +6,12 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import sa.sorting.BubbleSort;
-import sa.sorting.Heapsort;
-import sa.sorting.InsertionSort;
-import sa.sorting.MergeSort;
-import sa.sorting.Quicksort;
-import sa.sorting.SelectionSort;
+import sorting.algorithms.BubbleSort;
+import sorting.algorithms.Heapsort;
+import sorting.algorithms.InsertionSort;
+import sorting.algorithms.MergeSort;
+import sorting.algorithms.Quicksort;
+import sorting.algorithms.SelectionSort;
 
 public class JUnitTest {
 
