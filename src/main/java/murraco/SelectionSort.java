@@ -1,4 +1,4 @@
-package sorting.algorithms;
+package murraco;
 
 public class SelectionSort {
 
