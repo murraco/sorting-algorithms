@@ -12,6 +12,28 @@
 ![](https://img.shields.io/badge/heapsort-✓-blue.svg)
 ![](https://img.shields.io/badge/quicksort-✓-blue.svg)
 
+# File Structure
+
+```
+sorting-algorhtms/
+ │
+ ├── src/main/java/murraco
+ │   └── murraco
+ │       ├── BubbleSort.java
+ │       ├── Heapsort.java
+ │       ├── InsertionSort.java
+ │       ├── MergeSort.java
+ │       ├── Quicksort.java
+ │       └── SelectionSort.java
+ │
+ ├── src/test/java/
+ │   └── murraco         
+ │       └── SortingAlgorithmsTest.java
+ │
+ ├── pom.xml
+ └── README.md
+ ```
+
 ## BubbleSort
 
 **stable:** `Yes` - **time:** `O(n^2)` - **space:** `O(1)`
