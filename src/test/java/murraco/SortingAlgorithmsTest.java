@@ -1,4 +1,4 @@
-package sa.test;
+package murraco;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,14 +6,14 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import sorting.algorithms.BubbleSort;
-import sorting.algorithms.Heapsort;
-import sorting.algorithms.InsertionSort;
-import sorting.algorithms.MergeSort;
-import sorting.algorithms.Quicksort;
-import sorting.algorithms.SelectionSort;
+import murraco.BubbleSort;
+import murraco.Heapsort;
+import murraco.InsertionSort;
+import murraco.MergeSort;
+import murraco.Quicksort;
+import murraco.SelectionSort;
 
-public class JUnitTest {
+public class SortingAlgorithmsTest {
 
 	@Test
 	public void testBubbleSort() {
