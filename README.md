@@ -87,7 +87,7 @@ Both phases are slightly adaptive, though not in any particularly useful manner.
 
 Quicksort is a divide-and-conquer algorithm that involves choosing a pivot value from a data-set and splitting the set into two subsets: a set that contains all values less than the pivot and a set that contains all values greater than or equal to the pivot. The pivot/split process is recursively applied to each subset until there are no more subsets to split. The results are combined to form the final sorted set.
 
-The challenge of a quicksort is to determine a reasonable **midpoint** value for dividing the data into two groups. The efficiency of the algorithm is entirely dependent upon how successfully an accurate the midpoint value is selected. In the best case, the runtime is `O(n log n`). In the worst case where one of the two groups always has only a single element, the runtime drops to `O(n^2)`.
+The challenge of a quicksort is to determine a reasonable **midpoint** value for dividing the data into two groups. The efficiency of the algorithm is entirely dependent upon how successfully and accurate the midpoint value is selected. In the best case, the runtime is `O(n log n`). In the worst case where one of the two groups always has only a single element, the runtime drops to `O(n^2)`.
 
 If it's known that the data to be sorted all fit within a given range, or fit a certain distribution model, this knowledge can be used to improve the efficiency of the algorithm by choosing midpoint values that are likely to divide the data in half as close to evenly as possible. A generic algorithm that is designed to work without respect to data types or value ranges may simply select a value from the unsorted list, or use some random method to determine the midpoint.
 
