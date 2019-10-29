@@ -47,7 +47,7 @@ sorting-algorhtms/
 
 In bubble sort, we start at the beginning of the array and swap the first two elements if the first is greater than the second. Then, we go to the next pair, and so on, continuously making sweeps of the array until it's sorted
 
-The single best advantage of a bubble sort is that it's very simple to understand and code from memory. Additionally, it's a stable sort algorithm that requires no additional memory, since all swaps are made in place. Normally it's `O(n^2)` runtime, and hence is very slow for large data sets.
+The single best advantage of a bubble sort is that it's very simple to understand and code from memory. Additionally, it's a stable sort algorithm that requires no additional memory, since all swaps are made in place. Normally it's `O(n^2)` runtime, and hence is very slow for large data sets. Bubble Sort is easy to understand but it's worse among all other sorting algorithms.
 
 ## InsertionSort
 
