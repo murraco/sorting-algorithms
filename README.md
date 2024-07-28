@@ -12,12 +12,6 @@
 ![](https://img.shields.io/badge/heapsort-✓-blue.svg)
 ![](https://img.shields.io/badge/quicksort-✓-blue.svg)
 
-***
-
-<h3 align="center">Please help this repo with a ⭐ or <a href='https://github.com/sponsors/murraco'>Sponsor Me</a> if you find it useful! :blush:</h3>
-
-***
-
 # File Structure
 
 ```
@@ -103,3 +97,7 @@ If it's known that the data to be sorted all fit within a given range, or fit a 
 - Open pull request with improvements
 - Spread the word
 - Reach out to me directly at <mauriurraco@gmail.com>
+
+# Buy me a coffee to show your support!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/murraco)
