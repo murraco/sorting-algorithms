@@ -1,6 +1,8 @@
 # Sorting Algorithms
 
-# Algorithms
+Classic sorting algorithms implemented from scratch in Java, each with a short write-up of its stability, complexity and trade-offs.
+
+## Algorithms
 
 ![](https://img.shields.io/badge/bubblesort-✓-blue.svg)
 ![](https://img.shields.io/badge/insertionsort-✓-blue.svg)
@@ -9,30 +11,32 @@
 ![](https://img.shields.io/badge/heapsort-✓-blue.svg)
 ![](https://img.shields.io/badge/quicksort-✓-blue.svg)
 
-# File Structure
+## File structure
 
 ```
-sorting-algorhtms/
- │
- ├── src/main/java/murraco
- │   └── murraco
- │       ├── BubbleSort.java
- │       ├── Heapsort.java
- │       ├── InsertionSort.java
- │       ├── MergeSort.java
- │       ├── Quicksort.java
- │       └── SelectionSort.java
- │
- ├── src/test/java/
- │   └── murraco         
- │       └── SortingAlgorithmsTest.java
- │
- ├── .gitignore
- ├── pom.xml
- └── README.md
- ```
+sorting-algorithms/
+│
+├── src/main/java/
+│   └── murraco
+│       ├── BubbleSort.java
+│       ├── Heapsort.java
+│       ├── InsertionSort.java
+│       ├── MergeSort.java
+│       ├── Quicksort.java
+│       └── SelectionSort.java
+│
+├── src/test/java/
+│   └── murraco
+│       └── SortingAlgorithmsTest.java
+│
+├── .gitignore                    * Example git ignore file
+├── pom.xml                       * Defines our Java dependencies
+└── README.md                     * This file
+```
 
-## BubbleSort
+## Implementations
+
+### BubbleSort
 
 **stable:** `Yes` - **time:** `O(n^2)` - **space:** `O(1)`
 
@@ -40,7 +44,7 @@ In bubble sort, we start at the beginning of the array and swap the first two el
 
 The single best advantage of a bubble sort is that it's very simple to understand and code from memory. Additionally, it's a stable sort algorithm that requires no additional memory, since all swaps are made in place. Normally it's `O(n^2)` runtime, and hence is very slow for large data sets.
 
-## InsertionSort
+### InsertionSort
 
 **stable:** `Yes` - **time:** `O(n^2)` - **space:** `O(1)`
 
@@ -48,7 +52,7 @@ It's a stable sorting algorithm that seeks to sort a list one element at a time.
 
 It works very efficiently for lists that are nearly sorted initially. Furthermore, it can also work on data-sets that are constantly being added to. For instance, if one wanted to maintain a sorted list of the highest scores achieved in a game, an insertion sort would work well since the new elements would be added to the data as the game was played.
 
-## SelectionSort
+### SelectionSort
 
 **stable:** `No` - **time:** `O(n^2)` - **space:** `O(1)`
 
@@ -56,7 +60,7 @@ It starts with the first element in the array (or list) and scans through the ar
 
 It has the advantage that requires at most `n-1` swaps. In situations in which moving data elements is more expensive than comparing them, selection sort may perform better than other algorithms. The efficiency of an algorithm depends on what you're optimizing for.
 
-## MergeSort
+### MergeSort
 
 **stable:** `No` - **time:** `O(n log n)` - **space:** `O(n)`
 
@@ -68,7 +72,7 @@ Each recursively-call has `O(n)` runtime, and a total of `O(log n)` recursions a
 
 Apart from being fairly efficient, a merge sort has the advantage that it can be used to solve other problems such as determining how **unsorted** a given list is.
 
-## Heapsort
+### Heapsort
 
 **stable:** `No` - **time:** `O(n log n)` - **space:** `O(1)`
 
@@ -78,7 +82,7 @@ The first loop, the `O(n)` **heapify** phase, puts the array into heap order. Th
 
 Both phases are slightly adaptive, though not in any particularly useful manner. In the nearly sorted case, the heapify phase destroys the original order. In the reversed case, the heapify phase is as fast as possible since the array starts in heap order, but then the sortdown phase is typical. In the few unique keys case, there is some speedup, but not as much as in 3-way quicksort.
 
-## Quicksort
+### Quicksort
 
 **stable:** `No` - **time:** `O(n log n)` - **space:** `O(log n)`
 
@@ -88,13 +92,15 @@ The challenge of a quicksort is to determine a reasonable **midpoint** value for
 
 If it's known that the data to be sorted all fit within a given range, or fit a certain distribution model, this knowledge can be used to improve the efficiency of the algorithm by choosing midpoint values that are likely to divide the data in half as close to evenly as possible. A generic algorithm that is designed to work without respect to data types or value ranges may simply select a value from the unsorted list, or use some random method to determine the midpoint.
 
-# Contribution
+## Contribution
 
 - Report issues
 - Open pull request with improvements
 - Spread the word
 - Reach out to me directly at <mauriurraco@gmail.com>
 
-# Buy me a coffee to show your support!
+## Support
+
+If this project helped you, consider buying me a coffee ☕️
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/murraco)
