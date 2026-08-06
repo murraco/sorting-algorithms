@@ -1,3 +1,6 @@
+> **Archived.** Educational reference, Java 8 era, unmaintained. Kept as-is for anyone who
+> finds it useful, but not accepting issues or PRs.
+
 # Sorting Algorithms
 
 Classic sorting algorithms implemented from scratch in Java, each with a short write-up of its stability, complexity and trade-offs.
